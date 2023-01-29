@@ -1,0 +1,17 @@
+body{
+    color:red;
+}
+h1{
+    color:purple;
+}
+
+h2{
+    color:blue;
+}
+#list-heading{
+    color: pink;
+}
+
+.list-sub-heading{
+    color: yellow;
+}
