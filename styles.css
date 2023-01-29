@@ -1,17 +1,6 @@
-body{
-    color:red;
-}
-h1{
-    color:purple;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-h2{
-    color:blue;
-}
-#list-heading{
-    color: pink;
-}
+ body{
+    font-family: 'Roboto', arial, helvetica, sans-serif;
 
-.list-sub-heading{
-    color: yellow;
-}
+ }
