@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component library</title>
-    <!-- <style>
-        small{
-            color:red;
-        }
-    </style> -->
 
     <!-- //third way of doing CSS (its most used) -->
     <link href="styles.css" rel="stylesheet"/>
@@ -23,11 +18,11 @@
     <h2>@All the Containers</h2>
         <h3>Fluid container</h3>
             <div class="container">
-                This is a fluid container it will be used till the end of this HTML page width to print this text
+                This is a fluid container it will print text till the end of this HTML page width to print this text.This is going to become the skeleton of all the portfolio work I will be doing later.This is going to become the skeleton of all the portfolio work I will be doing later.
             </div>
 
-        <h3>Center container</h3>
-            <div class="container container-fluid">This text will be limited to the center</div>
+        <h3 class="container-center">Center container</h3>
+            <div class="container container-center">This text will be limited to the center.This is going to become the skeleton of all the portfolio work I will be doing later.This is going to become the skeleton of all the portfolio work I will be doing later.</div>
     <hr>
     <h2>@Links</h2>
     <a class="link primary-link", href="#">Primary Link</a>
@@ -37,8 +32,8 @@
     <h2 >@Lists</h2>
     <h3 > 1. Unordered List (this list will not have bullets)</h3>
     <ul class="list-non-bullet">
-        <li>mango</li>
-        <li>bananna</li>
+        <li>Mango</li>
+        <li>Bananna</li>
         <li>Apple</li>
         <li>Orange</li>
     </ul>
@@ -61,20 +56,20 @@
     </ol>
 
     <hr/>
-    <h2>@Navigation bar</h2>
-    <nav>
-        <div> Important stuff</div>
-        <ul>
-            <li>
-                <a href=""#> Home</a>
+    <h2 >@Navigation bar</h2>
+    <nav class="navigation container">
+        <div class="nav-brand"> Important stuff</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href=""#> Home</a>
             </li>
 
-            <li>
-                <a href="#">Products</a>
+            <li class="list-item-inline">
+                <a class="link" href="#">Products</a>
             </li>
 
-            <li>
-                <a href="#">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="#">About</a>
             </li>
         </ul>
     </nav>
@@ -82,36 +77,45 @@
     <hr>
 
     <h2> @Header</h2>
-
-    <header>
-        <img src="images/hero.png"/>
-        <h1>heading inside header hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.png"/>
+        <h1 claas="hero-heading">Heading inside header hero</h1>
     </header>
 <hr>
-<h2>Section</h2>
+<h2 >Section</h2>
 
-<section>
+<section class="section">
 <h3>White section</h3>
 <p>This will have white backgroun</p>
 </section>
 
-<section>
+<section class="section off-white-color">
     <h3>Off white section</h3>
     <p>This will have some color</p>
 </section>
 
 <hr/>
-<footer>
-    <div> Some small heading insidte footer</div>
-    <ul>
-        <li>Socials</li>
-        <li>Contact</li>
-        <li>LinkedIn</li>
+<footer class="footer">
+    <div class="footer-header"> Some small heading insidte footer</div>
+    <ul class="social-links list-non-bullet">
+        
+        <li class="list-item-inline">
+            <a class="link" href="/">
+                Socials
+            </a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="/">
+                Contact
+            </a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="/">
+                LinkedIn
+            </a>
+        </li>
     </ul>
 </footer>
-
-
-
     <div style ="height:30vh;">
 
     </div>
