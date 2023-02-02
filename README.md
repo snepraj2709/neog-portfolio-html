@@ -1,6 +1,6 @@
 # My Portfolio
 
-6 Mini rojects made using Html, CSS and Javascript
+6 Mini projects made using Html, CSS and Javascript
 
 1. A Do you know me Quiz - A CLI App
 2. An Economy quiz - A CLI App
